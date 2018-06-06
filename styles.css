@@ -1,0 +1,186 @@
+body {
+	font-family: helvetica, arial, sans-serif;
+	margin:auto;
+	background-color: #eee;
+}
+
+p {
+	font-size: 14px;
+  color: #0a0a0a;
+}
+
+hr {
+	border: 0;
+  height: 10px;
+  background: #eee;
+  background-image: linear-gradient(to right, #eee, #ddd, #eee);
+}
+
+br {
+	clear: both;
+}
+.header {
+	background: #cc0000;
+	color: #ffffff;
+	padding: 20px 40px 20px 20px;
+}
+
+.header p {
+		font-size: 16px;
+    color: #ffffff;
+}
+
+footer {
+	background: #000000;
+	color: #ffffff;
+	padding: 10px 40px 10px 20px;
+	clear:both;
+}
+
+footer p {
+		font-size: 12px;
+    color: #ffffff;
+}
+
+.copy {
+	padding: 20px 40px 20px 20px;
+}
+
+#subjectline:before {
+   content: "Subject Line: ";
+	 font-weight: bold;
+	 max-width: 800px;
+}
+
+#previewpane:before {
+   content: "Preview Pane: ";
+	 font-weight: bold;
+	 width: 800px;
+}
+
+#brandbar:before {
+   content: "Brand Bar: ";
+	 font-weight: bold;
+	 width: 800px;
+}
+
+#disclaimer:before {
+   content: "Disclaimer: ";
+	 font-weight: bold;
+	 width: 800px;
+
+}
+
+
+#versionNumber, #subjectline, #previewpane, #brandbar, #disclaimer {
+	width: 800px;
+}
+
+#jobdesc, #version {
+	width: 1200px;
+}
+
+
+
+.creative {
+	width: 1550px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ccc;
+	overflow: hidden;
+	display: block;
+}
+
+.left{
+	float:left;
+  width:400px;
+  padding-right: 32px;
+}
+
+.center{
+	float:left;
+	width:320px;
+	  padding-right: 32px;
+}
+
+.right{
+	float:left;
+	width:640px;
+}
+
+
+.mobileartwork {
+ 	position: relative;
+  left: 54px;
+  top: 115px;
+  resize: vertical;
+  overflow: auto;
+}
+
+.mobilephone {
+  background-image: url("../image/xNOT FOR USE/phone.png");
+  background-repeat: no-repeat;
+  width: 650px;
+	float: left;
+	height: 900px;
+
+}
+
+
+
+
+
+#mobile {
+	height: auto;
+  width: auto;
+  max-width: 320px;
+	display: block;
+
+}
+
+#fifty {
+	height: auto;
+  width: auto;
+  max-width: 320px;
+	line-height: 0;
+	float: left;
+}
+
+#desktop {
+	height: auto;
+	width: auto;
+	max-width:640px;
+	display:block;
+}
+
+button {
+	background-color: #c00;
+	border: 2px solid #c00;
+	border-bottom: 2px solid #a1050d;
+	color: #ffffff;
+	border-radius: 0;
+	text-align: center;
+	display: inline-block;
+	margin: 10px 10px 10px 10px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	height: 44px;
+	vertical-align: middle;
+	cursor: pointer;
+	padding: 0 24px;
+
+
+}
+
+
+
+@media all {
+	.page-break	{ display: none; }
+}
+
+@media print {
+	.page-break	{ display: block; page-break-before: always; }
+	.no-print {display: none;}
+}
