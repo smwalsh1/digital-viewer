@@ -1,4 +1,4 @@
 # digital-viewer
-Email proofing tool.
+Email proofing tool includes inbox view.
 
-HTML / CSS / Javascript
+HTML / CSS / Javascript / 
